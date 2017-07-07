@@ -1,4 +1,4 @@
-package edu.design.patterns.singleton;
+package edu.design.patterns.creation.singleton;
 
 /**
  * The same as Eager Singleton, but also provides error handling.

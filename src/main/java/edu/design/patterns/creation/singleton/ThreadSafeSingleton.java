@@ -1,4 +1,4 @@
-package edu.design.patterns.singleton;
+package edu.design.patterns.creation.singleton;
 
 /**
  * Thread safe and lazy singleton.
@@ -9,7 +9,8 @@ public class ThreadSafeSingleton {
 
     private static ThreadSafeSingleton instance;
 
-    private ThreadSafeSingleton() {}
+    private ThreadSafeSingleton() {
+    }
 
     public static ThreadSafeSingleton getInstance() {
         if (instance == null) {

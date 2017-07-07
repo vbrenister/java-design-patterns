@@ -1,4 +1,4 @@
-package edu.design.patterns.singleton;
+package edu.design.patterns.creation.singleton;
 
 /**
  * Cannot be destroyed by reflection.

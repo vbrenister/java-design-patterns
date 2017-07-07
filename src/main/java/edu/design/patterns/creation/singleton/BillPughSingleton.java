@@ -1,4 +1,4 @@
-package edu.design.patterns.singleton;
+package edu.design.patterns.creation.singleton;
 
 /**
  * JVM wont see any static `members` in the `BillPughSingleton` class and will initialize it trivially.
